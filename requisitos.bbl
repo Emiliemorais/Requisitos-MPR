@@ -5,16 +5,55 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[Alves e Alves 2008]{alves}
+\abntrefinfo{Alves e Alves}{ALVES; ALVES}{2008}
+{ALVES, S. de R.; ALVES, A.~L. Engenharia de requisitos em metodologias Ágeis.
+2008.}
+
 \bibitem[Falbo 2012]{falbo}
 \abntrefinfo{Falbo}{FALBO}{2012}
 {FALBO, R. de A. \emph{Engenharia de Requisitos: Notas de Aula}. 2012.}
+
+\bibitem[Jitnah, Han e Steele 1995]{jitnah}
+\abntrefinfo{Jitnah, Han e Steele}{JITNAH; HAN; STEELE}{1995}
+{JITNAH, D.; HAN, J.; STEELE, P. Software requirements engineering: An
+  overview.
+1995.}
+
+\bibitem[Leffingwell 2011]{safe}
+\abntrefinfo{Leffingwell}{LEFFINGWELL}{2011}
+{LEFFINGWELL, D. \emph{Agile Software Development with Verification and
+  Validation in High Assurance and Regulated Environments}. 2011.}
 
 \bibitem[Nuseibeh e Easterbrook 2000]{nuseibeh}
 \abntrefinfo{Nuseibeh e Easterbrook}{NUSEIBEH; EASTERBROOK}{2000}
 {NUSEIBEH, B.; EASTERBROOK, S. \emph{Requiments Engineering: A Roadmap}. 2000.}
 
+\bibitem[Paetsch, Eberlein e Maurer 2003]{paetsch}
+\abntrefinfo{Paetsch, Eberlein e Maurer}{PAETSCH; EBERLEIN; MAURER}{2003}
+{PAETSCH, F.; EBERLEIN, D.~A.; MAURER, D.~F. Requirements engineering and agile
+  software development.
+2003.}
+
+\bibitem[PRESSMAN 2011]{pressman}
+\abntrefinfo{PRESSMAN}{PRESSMAN}{2011}
+{PRESSMAN, R.~S. \emph{Engenharia de Software: uma abordagem profissional}.
+  [S.l.: s.n.], 2011.}
+
 \bibitem[Sommerville 2007]{sommerville}
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2007}
 {SOMMERVILLE, I. \emph{Engenharia de Software}. 8. ed. [S.l.: s.n.], 2007.}
+
+\bibitem[Vasco, Vithoft e Estante 2006]{vasco}
+\abntrefinfo{Vasco, Vithoft e Estante}{VASCO; VITHOFT; ESTANTE}{2006}
+{VASCO, C.~G.; VITHOFT, M.~H.; ESTANTE, P. R.~C. Comparação entre
+  metodologias rup e xp.
+2006.}
+
+\bibitem[Zowghi e Coulin 2005]{coulin}
+\abntrefinfo{Zowghi e Coulin}{ZOWGHI; COULIN}{2005}
+{ZOWGHI, D.; COULIN, C. Requirements elicitation: A survey of techniques,
+  approaches, and tools.
+2005.}
 
 \end{thebibliography}
