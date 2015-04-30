@@ -61,6 +61,16 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2007}
 {SOMMERVILLE, I. \emph{Engenharia de Software}. 8. ed. [S.l.: s.n.], 2007.}
 
+\bibitem[Beatty 2013]{beatty}
+\abntrefinfo{Beatty}{BEATTY}{2013}
+{BEATTY, J. \emph{Winning the Hidden Battle: Requirements Tool Selection and
+  Adoption}. [S.l.: s.n.], 2013.}
+
+\bibitem[Teixeira 2009]{ananias}
+\abntrefinfo{Teixeira}{TEIXEIRA}{2009}
+{TEIXEIRA, R. A.~R. \emph{Estudo comparativo entre ferramentas de Gerência de
+  Requisitos}. 2009.}
+
 \bibitem[UP 2015]{openUp}
 \abntrefinfo{UP}{UP}{2015}
 {UP, G.~O. \emph{Conceito: Atributos de Requisitos}. 2015.
