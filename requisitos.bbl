@@ -10,9 +10,9 @@
 {ALVES, S. de R.; ALVES, A.~L. Engenharia de requisitos em metodologias Ágeis.
 2008.}
 
-\bibitem[BASIC 2015]{openUpBasic}
-\abntrefinfo{BASIC}{BASIC}{2015}
-{BASIC, G. O.~U. \emph{Conceito: Atributos de Requisitos}. 2015.
+\bibitem[BASIC 2009]{openUpBasic}
+\abntrefinfo{BASIC}{BASIC}{2009}
+{BASIC, G. O.~U. \emph{Conceito: Atributos de Requisitos}. 2009.
 Dispon{\'\i}vel em:
   \url{http://epf.eclipse.org/wikis/openuppt/openup\_basic/guidances/concepts/requirement\_attributes,\_VQ268O0KEdqHTdbLTmC5IQ.html}.}
 
@@ -52,6 +52,11 @@ Dispon{\'\i}vel em:
 {PRESSMAN, R.~S. \emph{Engenharia de Software: uma abordagem profissional}.
   [S.l.: s.n.], 2011.}
 
+\bibitem[SHWABER e SUTHERLAND 2013]{scrum}
+\abntrefinfo{SHWABER e SUTHERLAND}{SHWABER; SUTHERLAND}{2013}
+{SHWABER; SUTHERLAND. Guia do scrum.
+2013.}
+
 \bibitem[Sommerville 2007]{sommerville}
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2007}
 {SOMMERVILLE, I. \emph{Engenharia de Software}. 8. ed. [S.l.: s.n.], 2007.}
@@ -60,7 +65,7 @@ Dispon{\'\i}vel em:
 \abntrefinfo{UP}{UP}{2015}
 {UP, G.~O. \emph{Conceito: Atributos de Requisitos}. 2015.
 Dispon{\'\i}vel em:
-  \url{http://www.wthreex.com/rup/openup\_15\_ptbr/index.htm}.}
+  \url{http://www.wthreex.com/rup/openup\_15\_ptbr/index.html}.}
 
 \bibitem[Vasco, Vithoft e Estante 2006]{vasco}
 \abntrefinfo{Vasco, Vithoft e Estante}{VASCO; VITHOFT; ESTANTE}{2006}
