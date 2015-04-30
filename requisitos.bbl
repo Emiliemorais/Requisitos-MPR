@@ -10,6 +10,12 @@
 {ALVES, S. de R.; ALVES, A.~L. Engenharia de requisitos em metodologias Ágeis.
 2008.}
 
+\bibitem[BASIC 2015]{openUpBasic}
+\abntrefinfo{BASIC}{BASIC}{2015}
+{BASIC, G. O.~U. \emph{Conceito: Atributos de Requisitos}. 2015.
+Dispon{\'\i}vel em:
+  \url{http://epf.eclipse.org/wikis/openuppt/openup\_basic/guidances/concepts/requirement\_attributes,\_VQ268O0KEdqHTdbLTmC5IQ.html}.}
+
 \bibitem[Dahlstedt e Persson 2005]{persson}
 \abntrefinfo{Dahlstedt e Persson}{DAHLSTEDT; PERSSON}{2005}
 {DAHLSTEDT Åsa G.; PERSSON, A. Requirements interdependencies: State of the
@@ -49,6 +55,12 @@
 \bibitem[Sommerville 2007]{sommerville}
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2007}
 {SOMMERVILLE, I. \emph{Engenharia de Software}. 8. ed. [S.l.: s.n.], 2007.}
+
+\bibitem[UP 2015]{openUp}
+\abntrefinfo{UP}{UP}{2015}
+{UP, G.~O. \emph{Conceito: Atributos de Requisitos}. 2015.
+Dispon{\'\i}vel em:
+  \url{http://www.wthreex.com/rup/openup\_15\_ptbr/index.htm}.}
 
 \bibitem[Vasco, Vithoft e Estante 2006]{vasco}
 \abntrefinfo{Vasco, Vithoft e Estante}{VASCO; VITHOFT; ESTANTE}{2006}
