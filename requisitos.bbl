@@ -5,16 +5,14 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
-\bibitem[Falbo 2012]{falbo}
-\abntrefinfo{Falbo}{FALBO}{2012}
-{FALBO, R. de A. \emph{Engenharia de Requisitos: Notas de Aula}. 2012.}
+\bibitem[Beatty 2013]{beatty}
+\abntrefinfo{Beatty}{BEATTY}{2013}
+{BEATTY, J. \emph{Winning the Hidden Battle: Requirements Tool Selection and
+  Adoption}. [S.l.: s.n.], 2013.}
 
-\bibitem[Nuseibeh e Easterbrook 2000]{nuseibeh}
-\abntrefinfo{Nuseibeh e Easterbrook}{NUSEIBEH; EASTERBROOK}{2000}
-{NUSEIBEH, B.; EASTERBROOK, S. \emph{Requiments Engineering: A Roadmap}. 2000.}
-
-\bibitem[Sommerville 2007]{sommerville}
-\abntrefinfo{Sommerville}{SOMMERVILLE}{2007}
-{SOMMERVILLE, I. \emph{Engenharia de Software}. 8. ed. [S.l.: s.n.], 2007.}
+\bibitem[Teixeira 2009]{ananias}
+\abntrefinfo{Teixeira}{TEIXEIRA}{2009}
+{TEIXEIRA, R. A.~R. \emph{Estudo comparativo entre ferramentas de Gerência de
+  Requisitos}. 2009.}
 
 \end{thebibliography}
