@@ -10,12 +10,6 @@
 {ALVES, S. de R.; ALVES, A.~L. Engenharia de requisitos em metodologias Ágeis.
 2008.}
 
-\bibitem[BASIC 2009]{openUpBasic}
-\abntrefinfo{BASIC}{BASIC}{2009}
-{BASIC, G. O.~U. \emph{Conceito: Atributos de Requisitos}. 2009.
-Dispon{\'\i}vel em:
-  \url{http://epf.eclipse.org/wikis/openuppt/openup\_basic/guidances/concepts/requirement\_attributes,\_VQ268O0KEdqHTdbLTmC5IQ.html}.}
-
 \bibitem[Beatty 2013]{beatty}
 \abntrefinfo{Beatty}{BEATTY}{2013}
 {BEATTY, J. \emph{Winning the Hidden Battle: Requirements Tool Selection and
@@ -30,6 +24,18 @@ Dispon{\'\i}vel em:
 \bibitem[Falbo 2012]{falbo}
 \abntrefinfo{Falbo}{FALBO}{2012}
 {FALBO, R. de A. \emph{Engenharia de Requisitos: Notas de Aula}. 2012.}
+
+\bibitem[Guia{ }OPEN{ }UP 2015]{openUp}
+\abntrefinfo{Guia{ }OPEN{ }UP}{GUIA{ }OPEN{ }UP}{2015}
+{GUIA{ }OPEN{ }UP. \emph{Conceito: Atributos de Requisitos}. 2015.
+Dispon{\'\i}vel em:
+  \url{http://www.wthreex.com/rup/openup\_15\_ptbr/index.html}.}
+
+\bibitem[Guia{ }OPEN{ }UP{ }BASIC 2009]{openUpBasic}
+\abntrefinfo{Guia{ }OPEN{ }UP{ }BASIC}{GUIA{ }OPEN{ }UP{ }BASIC}{2009}
+{GUIA{ }OPEN{ }UP{ }BASIC. \emph{Conceito: Atributos de Requisitos}. 2009.
+Dispon{\'\i}vel em:
+  \url{http://epf.eclipse.org/wikis/openuppt/openup\_basic/guidances/concepts/requirement\_attributes,\_VQ268O0KEdqHTdbLTmC5IQ.html}.}
 
 \bibitem[Jitnah, Han e Steele 1995]{jitnah}
 \abntrefinfo{Jitnah, Han e Steele}{JITNAH; HAN; STEELE}{1995}
@@ -52,13 +58,13 @@ Dispon{\'\i}vel em:
   software development.
 2003.}
 
-\bibitem[PRESSMAN 2011]{pressman}
-\abntrefinfo{PRESSMAN}{PRESSMAN}{2011}
+\bibitem[Pressman 2011]{pressman}
+\abntrefinfo{Pressman}{PRESSMAN}{2011}
 {PRESSMAN, R.~S. \emph{Engenharia de Software: uma abordagem profissional}.
   [S.l.: s.n.], 2011.}
 
-\bibitem[SHWABER e SUTHERLAND 2013]{scrum}
-\abntrefinfo{SHWABER e SUTHERLAND}{SHWABER; SUTHERLAND}{2013}
+\bibitem[Shwaber e Sutherland 2013]{scrum}
+\abntrefinfo{Shwaber e Sutherland}{SHWABER; SUTHERLAND}{2013}
 {SHWABER; SUTHERLAND. Guia do scrum.
 2013.}
 
@@ -70,12 +76,6 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Teixeira}{TEIXEIRA}{2009}
 {TEIXEIRA, R. A.~R. \emph{Estudo comparativo entre ferramentas de Gerência de
   Requisitos}. 2009.}
-
-\bibitem[UP 2015]{openUp}
-\abntrefinfo{UP}{UP}{2015}
-{UP, G.~O. \emph{Conceito: Atributos de Requisitos}. 2015.
-Dispon{\'\i}vel em:
-  \url{http://www.wthreex.com/rup/openup\_15\_ptbr/index.html}.}
 
 \bibitem[Vasco, Vithoft e Estante 2006]{vasco}
 \abntrefinfo{Vasco, Vithoft e Estante}{VASCO; VITHOFT; ESTANTE}{2006}
