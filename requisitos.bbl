@@ -15,6 +15,12 @@
 {BEATTY, J. \emph{Winning the Hidden Battle: Requirements Tool Selection and
   Adoption}. [S.l.: s.n.], 2013.}
 
+\bibitem[Carnegie{ }Mellon{ }University 2010]{cmmi}
+\abntrefinfo{Carnegie{ }Mellon{ }University}{CARNEGIE{ }MELLON{
+  }UNIVERSITY}{2010}
+{CARNEGIE{ }MELLON{ }UNIVERSITY. \emph{CMMI for Development, Version 1.3}.
+  2010.}
+
 \bibitem[Dahlstedt e Persson 2005]{persson}
 \abntrefinfo{Dahlstedt e Persson}{DAHLSTEDT; PERSSON}{2005}
 {DAHLSTEDT Åsa G.; PERSSON, A. Requirements interdependencies: State of the
@@ -67,6 +73,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Shwaber e Sutherland}{SHWABER; SUTHERLAND}{2013}
 {SHWABER; SUTHERLAND. Guia do scrum.
 2013.}
+
+\bibitem[SOFTEX 2012]{mps}
+\abntrefinfo{SOFTEX}{SOFTEX}{2012}
+{SOFTEX, S. para Promoção da Excelência~do S.~B. \emph{M. P. S. Guia Geral,
+  “MPS. BR-Melhoria de Processo do Software Brasileiro,”}. 2012.}
 
 \bibitem[Sommerville 2007]{sommerville}
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2007}
