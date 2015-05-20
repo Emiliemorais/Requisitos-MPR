@@ -39,7 +39,7 @@
 % \input{editaveis/secoes/apendices}
 % \input{editaveis/secoes/anexos}
 \printindex
-\nocite{traceclouda, caliber, tracecloudb}
+
 
 \bibliography{bibliografia}{}
 \end{document}

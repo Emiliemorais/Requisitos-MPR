@@ -1,16 +1,6 @@
 \section[Critérios de Avaliação das Ferramentas]{Critérios de Avaliação das Ferramentas}
+Sobre os critérios de qualidade definidos, avaliou-se:
 
-De acordo com \citeonline{beatty} os critérios para avaliar uma ferramenta são: 
-Armazenamento dos requisitos e de seus atributos
-\begin{itemize}
-  \item Artefatos que estão relacionados
-  \item Gestão de mudanças
-  \item Rastreabilidade dos requisitos
-  \item Flexibilidade
-  \item Usabilidade
-  \item Adaptação ao contexto
-\end{itemize} 
-a partir disso, foram definidos os critérios para avaliar as ferramentas nesse trabalho.
 \begin{itemize}
   \item Armazenamento dos requisitos e de seus atributos: nesses pontos, o foco da avaliação era descobrir a capacidade da ferramenta em guardar informações sobre os requisitos. Visto que há a possibilidade da mesma alterar ou simplesmente apagar dados inseridos, a partir de testes e do manual da ferramenta foi possível descobrir se com o uso da mesma, estava-se livre de tal risco.
 
@@ -28,25 +18,24 @@ a partir disso, foram definidos os critérios para avaliar as ferramentas nesse 
   único para a abordagem definida pelo time e para o processo definido.
 \end{itemize}
 
-Após a pesquisa das ferramentas para gestão de requisitos e a análise de cada uma das encontradas, foi feito um quadro 
-comparativo com critérios definidos acima, que pode ser visto na Figura \ref{fig:quadro} que avalia cada uma das ferramentas. Cada um desses critérios foram avaliados de 0 a 5, sendo:
+Após a pesquisa das ferramentas para gestão de requisitos e a análise de cada uma das encontradas, foi feito um quadro comparativo com critérios definidos alguns por Joy Beatty e outros pelos integrantes da equipe da disciplina de Requisitos de Software no 1º semestre de 2015 pela Universidade de Brasília que compõem este trabalho, que pode ser visto na Figura \ref{fig:quadro} que avalia cada uma das ferramentas. Cada um desses critérios foram avaliados de 0 a 5, sendo:
 
-0 - Muito ruim - Não atende de forma alguma ao critério.
+0 - Muito ruim
 
-1 - Ruim - Não atende ao critério da forma esperada.
+1 - Ruim
 
-2 - Razoável - Atende ao critério, mas seu retorno não é de forma significativa.
+2 - Razoável
 
-3 - Bom - Atende ao critério da forma esperada.
+3 - Bom
 
-4 - Muito bom - Atende ao critério além da forma esperada.
+4 - Muito bom
 
-5 - Excelente - Atende ao critério além da forma esperada, com um retorno bastante significativo e de qualidade.
+5 - Excelente
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=0.7]{figuras/quadro.jpg}
-\caption{Quadro comparativo entre ferramentas.}
+\caption{Quadro comparativo entre ferramentas}
 \label{fig:quadro}
 \end{figure}
 
