@@ -163,36 +163,7 @@ definidos previamente, e se através delas é possível escrever as Histórias d
 
   \textbf{Artefatos de Saída}:  \textit{Roadmap}\\
 
-\begin{figure}[!htb]
-\centering
-\includegraphics[scale=0.7]{figuras/release.png}
-\caption{Subprocesso Executar \textit{Release}}
-\label{fig:release}
-\end{figure}
-
-A partir do Subprocesso da Figura \ref{fig:release} o processo contém as seguintes atividades.
-
-\subsection{Priorizar \textit{features}}
-  \textbf{Descrição}: Essa atividade consiste na priorização das \textit{features} para a \textit{Release}. \\
-
-  \textbf{Tarefas}:
-  \begin{itemize}
-   \item \indent \textit{Reunir \textit{Features}}: Reunir \textit{features} envolvidas na \textit{Release};
-
-   \item \indent \textit{Estudar as \textit{Features}}: Estudar as \textit{features} para melhor entendimento de cada uma;
-
-   \item \indent \textit{Definir Indicador de Complexidade}: Definir um identificador para saber quais demandam mais trabalho (horas de serviço);
-
-   \item \indent \textit{Ordenar}: A partir dos resultados obtidos via análise, ordenar das que mostraram maiores métricas de esforço, até as menores, de modo que as mais difíceis sejam executadas o quanto antes.
-  \end{itemize}
-
-  \textbf{Participantes}: \textit{Product Manager}, \textit{Scrum Master}, Time\\
-
-  \textbf{Artefatos de Entrada}: \textit{Backlog} do Programa \\
-
-  \textbf{Artefatos de Saída}:  \textit{Backlog} do Programa \\
-
-\subsection{Escrever histórias}
+  \subsection{Escrever histórias}
   \textbf{Descrição}: Essa atividade consiste na escrita das histórias em um nível macro, derivadas das \textit{features}, para composição do \textit{Backlog} do Time. \\
 
   \textbf{Tarefas}:
@@ -218,6 +189,50 @@ A partir do Subprocesso da Figura \ref{fig:release} o processo contém as seguin
   \textbf{Artefatos de Entrada}: \textit{Backlog} do Programa \\
 
   \textbf{Artefatos de Saída}:   \textit{Backlog} do Time \\
+
+\subsection{Planejar \textit{Release}}
+  \textbf{Descrição}: Essa atividade consiste na priorização das \textit{features} em iterações para a \textit{Release}. \\
+
+  \textbf{Tarefas}:
+  \begin{itemize}
+   \item \indent \textit{Reunir \textit{Features}}: Reunir \textit{features} envolvidas na \textit{Release};
+
+   \item \indent \textit{Estudar as \textit{Features}}: Estudar as \textit{features} para melhor entendimento de cada uma;
+
+   \item \indent \textit{Definir Indicador de Complexidade}: Definir um identificador para saber quais demandam mais trabalho (horas de serviço);
+
+   \item \indent \textit{Ordenar}: A partir dos resultados obtidos via análise, ordenar das que mostraram maiores métricas de esforço, até as menores, de modo que as mais difíceis sejam executadas o quanto antes.
+  \end{itemize}
+
+  \textbf{Participantes}: \textit{Product Manager}, \textit{Scrum Master}, Time\\
+
+  \textbf{Artefatos de Entrada}: \textit{Backlog} do Programa \\
+
+  \textbf{Artefatos de Saída}:  \textit{Backlog} do Programa \\
+
+\subsection{Gerenciar mudanças no Programa}
+  \textbf{Descrição}: Essa atividade consiste na gerência de mudanças no nível de programa, como o surgimento de novas 
+  \textit{features}, novos épicos e novas histórias. Para cada um dos níveis de abstração requisitos essa atividade gera saída
+  para uma atividade diferente.\\
+
+  \textbf{Tarefas}:
+  \begin{itemize}
+   \item \indent \textit{Verificar o surgimento de novos requisitos}: Analisar se novos requisitos surgiram;
+
+   \item \indent \textit{Analisar impacto da mudança}: Analisar o impacto e a relevância da mudança no projeto e decidir se será considerada
+   ou descartada;
+
+   \item \indent \textit{Registrar novos requisitos}: Registrar novos requisitos, se forem épicos realizar as atividades: Levantar Épicos e 
+   Fazer reunião de validação dos épicos. Se forem \textit{features} realizar as atividades: Levantar Épicos e \textit{Features}  
+   Fazer reunião de validação dos \textit{features} e se forem histórias realizar a atividade de Escrever histórias.
+  
+  \end{itemize}
+
+  \textbf{Participantes}: Time\\
+
+  \textbf{Artefatos de Entrada}: \textit{Backlog} do Programa e do Time \\
+
+  \textbf{Artefatos de Saída}:  \textit{Backlog} do Programa e do Time \\
 
 \begin{figure}[!htb]
 \includegraphics[scale=0.5]{figuras/iteracao.png}
@@ -303,3 +318,26 @@ iteração. \\
   \textbf{Artefatos de Entrada}: Incremento de Software \\
 
   \textbf{Artefatos de Saída}:   \textit{Backlog} do Time \\
+
+\subsection{Gerenciar mudanças na Iteração}
+  \textbf{Descrição}: Essa atividade consiste na gerência de mudanças no nível de time, como o surgimento ou alocação de novas histórias.\\
+
+  \textbf{Tarefas}:
+  \begin{itemize}
+   \item \indent \textit{Verificar o surgimento de novos histórias}: Analisar se novas histórias surgiram;
+
+   \item \indent \textit{Verificar a necessidade de realocar histórias}: Analisar se será necessário realocar histórias em outra iteração;
+   
+   \item \indent \textit{Analisar impacto da mudança}: Analisar o impacto e a relevância da mudança na iteração e decidir se será considerada
+   ou descartada;
+
+   \item \indent \textit{Registrar novas histórias}: Registrar novas histórias e realizar a atividade de Escrever histórias.
+
+   \item \indent \textit{Realocar histórias}: Realocar as histórias em outra iteração.
+  \end{itemize}
+
+  \textbf{Participantes}: Time\\
+
+  \textbf{Artefatos de Entrada}: \textit{Backlog} do Time e da Iteração\\
+
+  \textbf{Artefatos de Saída}:  \textit{Backlog} do Time e da Iteração\\
