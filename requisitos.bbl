@@ -5,64 +5,17 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
-\bibitem[Alves e Alves 2008]{alves}
-\abntrefinfo{Alves e Alves}{ALVES; ALVES}{2008}
-{ALVES, S. de R.; ALVES, A.~L. Engenharia de requisitos em metodologias Ágeis.
-2008.}
-
-\bibitem[Beatty 2013]{beatty}
-\abntrefinfo{Beatty}{BEATTY}{2013}
-{BEATTY, J. \emph{Winning the Hidden Battle: Requirements Tool Selection and
-  Adoption}. [S.l.: s.n.], 2013.}
-
 \bibitem[Caliber 2015]{caliber}
 \abntrefinfo{Caliber}{CALIBER}{2015}
 {CALIBER. \emph{Features of Caliber}. 2015.
 Dispon{\'\i}vel em:
   \url{http://www.borland.com/Products/Requirements-Management/Caliber}.}
 
-\bibitem[Carnegie{ }Mellon{ }University 2010]{cmmi}
-\abntrefinfo{Carnegie{ }Mellon{ }University}{CARNEGIE{ }MELLON{
-  }UNIVERSITY}{2010}
-{CARNEGIE{ }MELLON{ }UNIVERSITY. \emph{CMMI for Development, Version 1.3}.
-  2010.}
-
-\bibitem[Dahlstedt e Persson 2005]{persson}
-\abntrefinfo{Dahlstedt e Persson}{DAHLSTEDT; PERSSON}{2005}
-{DAHLSTEDT Åsa G.; PERSSON, A. Requirements interdependencies: State of the
-  art and future challenges.
-2005.}
-
-\bibitem[Falbo 2012]{falbo}
-\abntrefinfo{Falbo}{FALBO}{2012}
-{FALBO, R. de A. \emph{Engenharia de Requisitos: Notas de Aula}. 2012.}
-
-\bibitem[Guia{ }OPEN{ }UP 2015]{openUp}
-\abntrefinfo{Guia{ }OPEN{ }UP}{GUIA{ }OPEN{ }UP}{2015}
-{GUIA{ }OPEN{ }UP. \emph{Conceito: Atributos de Requisitos}. 2015.
-Dispon{\'\i}vel em:
-  \url{http://www.wthreex.com/rup/openup\_15\_ptbr/index.html}.}
-
-\bibitem[Guia{ }OPEN{ }UP{ }BASIC 2009]{openUpBasic}
-\abntrefinfo{Guia{ }OPEN{ }UP{ }BASIC}{GUIA{ }OPEN{ }UP{ }BASIC}{2009}
-{GUIA{ }OPEN{ }UP{ }BASIC. \emph{Conceito: Atributos de Requisitos}. 2009.
-Dispon{\'\i}vel em:
-  \url{http://epf.eclipse.org/wikis/openuppt/openup\_basic/guidances/concepts/requirement\_attributes,\_VQ268O0KEdqHTdbLTmC5IQ.html}.}
-
 \bibitem[Jitnah, Han e Steele 1995]{jitnah}
 \abntrefinfo{Jitnah, Han e Steele}{JITNAH; HAN; STEELE}{1995}
 {JITNAH, D.; HAN, J.; STEELE, P. Software requirements engineering: An
   overview.
 1995.}
-
-\bibitem[Leffingwell 2011]{safe}
-\abntrefinfo{Leffingwell}{LEFFINGWELL}{2011}
-{LEFFINGWELL, D. \emph{Agile Software Development with Verification and
-  Validation in High Assurance and Regulated Environments}. 2011.}
-
-\bibitem[Nuseibeh e Easterbrook 2000]{nuseibeh}
-\abntrefinfo{Nuseibeh e Easterbrook}{NUSEIBEH; EASTERBROOK}{2000}
-{NUSEIBEH, B.; EASTERBROOK, S. \emph{Requiments Engineering: A Roadmap}. 2000.}
 
 \bibitem[Paetsch, Eberlein e Maurer 2003]{paetsch}
 \abntrefinfo{Paetsch, Eberlein e Maurer}{PAETSCH; EBERLEIN; MAURER}{2003}
@@ -75,25 +28,6 @@ Dispon{\'\i}vel em:
 {PRESSMAN, R.~S. \emph{Engenharia de Software: uma abordagem profissional}.
   [S.l.: s.n.], 2011.}
 
-\bibitem[Shwaber e Sutherland 2013]{scrum}
-\abntrefinfo{Shwaber e Sutherland}{SHWABER; SUTHERLAND}{2013}
-{SHWABER; SUTHERLAND. Guia do scrum.
-2013.}
-
-\bibitem[SOFTEX 2012]{mps}
-\abntrefinfo{SOFTEX}{SOFTEX}{2012}
-{SOFTEX, S. para Promoção da Excelência~do S.~B. \emph{M. P. S. Guia Geral,
-  “MPS. BR-Melhoria de Processo do Software Brasileiro,”}. 2012.}
-
-\bibitem[Sommerville 2007]{sommerville}
-\abntrefinfo{Sommerville}{SOMMERVILLE}{2007}
-{SOMMERVILLE, I. \emph{Engenharia de Software}. 8. ed. [S.l.: s.n.], 2007.}
-
-\bibitem[Teixeira 2009]{ananias}
-\abntrefinfo{Teixeira}{TEIXEIRA}{2009}
-{TEIXEIRA, R. A.~R. \emph{Estudo comparativo entre ferramentas de Gerência de
-  Requisitos}. 2009.}
-
 \bibitem[TraceCloud 2015]{tracecloudb}
 \abntrefinfo{TraceCloud}{TRACECLOUD}{2015a}
 {TRACECLOUD. \emph{Profuct features}. 2015.
@@ -105,12 +39,6 @@ Dispon{\'\i}vel em:
 {TRACECLOUD. \emph{Requirements Management}. 2015.
 Dispon{\'\i}vel em:
   \url{https://www.tracecloud.com/GloreeJava2/jsp/WebSite/TCHome.jsp}.}
-
-\bibitem[Vasco, Vithoft e Estante 2006]{vasco}
-\abntrefinfo{Vasco, Vithoft e Estante}{VASCO; VITHOFT; ESTANTE}{2006}
-{VASCO, C.~G.; VITHOFT, M.~H.; ESTANTE, P. R.~C. Comparação entre
-  metodologias rup e xp.
-2006.}
 
 \bibitem[Zowghi e Coulin 2005]{coulin}
 \abntrefinfo{Zowghi e Coulin}{ZOWGHI; COULIN}{2005}
