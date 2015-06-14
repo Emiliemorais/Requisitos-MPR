@@ -13,21 +13,73 @@ Com o objetivo de acompanhar e gerir da melhor maneira possível os requisitos, 
 \item Data de entrega:
 Data em que o requisito deve ser fornecido. Os valores deste atributo serão as próprias datas planejadas de entrega do requisito.
 
+\begin{table}[h]
+\centering
+\caption{Descrição dos valores do atributo Data de entrega}
+\label{Rotulo}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Valor} & \textbf{Descrição} \\
+\hline
+Data & Data planejada para entrega do requisito. \\ \hline
+\end{tabular}
+\end{table}
+
 Esse atributo foi definido por fornecer de maneira rápida a previsão de entrega do requisito. Dessa maneira, permite uma visão ampla do planejamento de requisitos, auxiliando nas ações de gerenciamento dos requisitos.
 \item Dificuldade:
 Uma indicação do nível de esforço necessário ou quão difícil será implementar o requisito. Este atributo pode assumir os valores: alta, média ou baixa.
+
+\begin{table}[h]
+\centering
+\caption{Descrição dos valores do atributo Dificuldade}
+\label{Rotulo}
+\begin{tabular}{ | l | p{1\linewidth} | }
+\hline
+\textbf{Valor} & \textbf{Descrição} \\ \hline
+Alta  &  Requisito com implementação complexa, em função de: dificultadores técnicos, alterarem a implementação de muitos requisitos e/ou que tenham relacionamento com sistemas externos. \\ \hline
+Média & Requisito com implementação não trivial, poucos dificultadores técnicos, alterarem a implementação de poucos requisitos e sem relação com sistemas externos. \\ \hline
+Baixa & Requisito com uma implementação trivial, sem: dificultadores técnicos, alterações na implementação de outros requisitos ou relação com outros sistemas externos. \\ \hline
+\end{tabular}
+\end{table}
 
 Esse atributo foi escolhido em razão de informar o quão difícil será implementar um requisito, fornecendo dados que auxiliam no planejamento e organização dos esforços para conclusão das atividades de desenvolvimento de requisitos e para alcançar os resultados esperados.
 
 \item Status:
 Grau de completude, ou seja, o progresso da implementação de um requisito. Este atributo pode adquirir os seguintes valores: completo, parcialmente concluído ou não Iniciado.
 
+\begin{table}[h]
+\centering
+\caption{Descrição dos valores do atributo Status}
+\label{Rotulo}
+\begin{tabular}{ | l | p{1\linewidth} | }
+\hline
+\textbf{Valor} & \textbf{Descrição} \\ \hline
+Completo &  Indica que o requisito foi completamente implementado. \\ \hline
+Parcialmente concluído & Indica que o requisito foi parcialmente implementado e ainda está sendo implementado. \\ \hline
+Não iniciado & Indica que o requisito ainda não começou a ser implementado. \\ \hline
+\end{tabular}
+\end{table}
+
 Esse atributo foi definido com o intuito de fornecer, a qualquer momento do desenvolvimento dos requisitos, a situação atual do requisito, em relação ao andamento de sua implementação. Ele permite que se tenha uma visão total do andamento do projeto, a partir de cada requisito.
 
 \item Prioridade:
 Declaração da importância relativa do requisito para os \textit{Stakeholders} (envolvidos ou interessados no desenvolvimento do software). Pode receber os seguintes valores: alta, média ou baixa.
 
-Esse atributo foi escolhido em razão de identificar o quão importante um requisito é para os envolvidos no projeto. Ele permite priorizar e planejar a implementação dos requisitos de acordo com suas prioridades, priorizando os requisitos de prioridade mais alta.
+\begin{table}[h]
+\centering
+\caption{Descrição dos valores do atributo Prioridade}
+\label{Rotulo}
+\begin{tabular}{ | l | p{1\linewidth} | }
+\hline
+\textbf{Valor} & \textbf{Descrição} \\ \hline
+Alta &  Requisitos imprescindíveis. O fracasso em sua implementação indica que o sistema não irá atender às necessidades dos interessados. São requisitos fundamentais para o sucesso do projeto. \\ \hline
+Média & Requisitos importantes para a eficácia ou eficiência do sistema. Sua não implementação afeta a satisfação do usuário e/ou o valor agregado do produto e o não atendimento não determina o fracasso do projeto. \\ \hline
+Baixa & Requisitos úteis, porém menos críticos, sendo usados menos frequentemente. Não possui muito significado para a satisfação do usuário e seu atendimento pode ser postergado. \\ \hline
+\end{tabular}
+\end{table}
+\tiny Fonte:http://www.engenhariadesoftware.net.br/artigos/artigo-26-levantamento-e-gerenciamento-de-requisitos-ii
+
+\normalsize Esse atributo foi escolhido em razão de identificar o quão importante um requisito é para os envolvidos no projeto. Ele permite priorizar e planejar a implementação dos requisitos de acordo com suas prioridades, priorizando os requisitos de prioridade mais alta.
 
 
 \end{itemize}
