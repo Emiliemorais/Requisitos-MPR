@@ -5,45 +5,15 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
-\bibitem[Caliber 2015]{caliber}
-\abntrefinfo{Caliber}{CALIBER}{2015}
-{CALIBER. \emph{Features of Caliber}. 2015.
-Dispon{\'\i}vel em:
-  \url{http://www.borland.com/Products/Requirements-Management/Caliber}.}
-
 \bibitem[Jitnah, Han e Steele 1995]{jitnah}
 \abntrefinfo{Jitnah, Han e Steele}{JITNAH; HAN; STEELE}{1995}
 {JITNAH, D.; HAN, J.; STEELE, P. Software requirements engineering: An
   overview.
 1995.}
 
-\bibitem[Paetsch, Eberlein e Maurer 2003]{paetsch}
-\abntrefinfo{Paetsch, Eberlein e Maurer}{PAETSCH; EBERLEIN; MAURER}{2003}
-{PAETSCH, F.; EBERLEIN, D.~A.; MAURER, D.~F. Requirements engineering and agile
-  software development.
-2003.}
-
 \bibitem[Pressman 2011]{pressman}
 \abntrefinfo{Pressman}{PRESSMAN}{2011}
 {PRESSMAN, R.~S. \emph{Engenharia de Software: uma abordagem profissional}.
   [S.l.: s.n.], 2011.}
-
-\bibitem[TraceCloud 2015]{tracecloudb}
-\abntrefinfo{TraceCloud}{TRACECLOUD}{2015a}
-{TRACECLOUD. \emph{Profuct features}. 2015.
-Dispon{\'\i}vel em:
-  \url{https://www.tracecloud.com/GloreeJava2/jsp/WebSite/TCFeatures.jsp}.}
-
-\bibitem[TraceCloud 2015]{traceclouda}
-\abntrefinfo{TraceCloud}{TRACECLOUD}{2015b}
-{TRACECLOUD. \emph{Requirements Management}. 2015.
-Dispon{\'\i}vel em:
-  \url{https://www.tracecloud.com/GloreeJava2/jsp/WebSite/TCHome.jsp}.}
-
-\bibitem[Zowghi e Coulin 2005]{coulin}
-\abntrefinfo{Zowghi e Coulin}{ZOWGHI; COULIN}{2005}
-{ZOWGHI, D.; COULIN, C. Requirements elicitation: A survey of techniques,
-  approaches, and tools.
-2005.}
 
 \end{thebibliography}
