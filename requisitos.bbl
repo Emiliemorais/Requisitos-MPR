@@ -11,9 +11,31 @@
   overview.
 1995.}
 
+\bibitem[Leffingwell 2011]{safe}
+\abntrefinfo{Leffingwell}{LEFFINGWELL}{2011}
+{LEFFINGWELL, D. \emph{Agile Software Development with Verification and
+  Validation in High Assurance and Regulated Environments}. 2011.}
+
+\bibitem[Paetsch, Eberlein e Maurer 2003]{paetsch}
+\abntrefinfo{Paetsch, Eberlein e Maurer}{PAETSCH; EBERLEIN; MAURER}{2003}
+{PAETSCH, F.; EBERLEIN, D.~A.; MAURER, D.~F. Requirements engineering and agile
+  software development.
+2003.}
+
 \bibitem[Pressman 2011]{pressman}
 \abntrefinfo{Pressman}{PRESSMAN}{2011}
 {PRESSMAN, R.~S. \emph{Engenharia de Software: uma abordagem profissional}.
   [S.l.: s.n.], 2011.}
+
+\bibitem[Shwaber e Sutherland 2013]{scrum}
+\abntrefinfo{Shwaber e Sutherland}{SHWABER; SUTHERLAND}{2013}
+{SHWABER; SUTHERLAND. Guia do scrum.
+2013.}
+
+\bibitem[Zowghi e Coulin 2005]{coulin}
+\abntrefinfo{Zowghi e Coulin}{ZOWGHI; COULIN}{2005}
+{ZOWGHI, D.; COULIN, C. Requirements elicitation: A survey of techniques,
+  approaches, and tools.
+2005.}
 
 \end{thebibliography}
