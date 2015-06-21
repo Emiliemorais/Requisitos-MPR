@@ -1,29 +1,43 @@
-\section{Registro de mudanças no processo}
+\chapter{Registro de mudanças no processo}
 
-
+\label{mudancas_processo}
 \begin{table*}[!h]
 \centering
 \caption{Mudanças no processo de Engenharia de Requisitos}
 \label{Rotulo}
-  \begin{tabular}{p{0.20\linewidth}p{0.25\linewidth}p{0.25\linewidth}}
+  \begin{tabular}{p{0.20\linewidth}p{0.25\linewidth}p{0.30\linewidth}p{0.25\linewidth}}
   \hline
-  Data  & Processos mudados & Versão Gerada\\
+  Data  & Processo mudado & Mudança & Versão Gerada \\
   \hline
 
-  23/05/2015 & Macroprocesso e Subprocesso Executar Iteração & 2.0\\
-
-  04/06/2015  & Macroprocesso & 3.0 \\
+  04/06/2015  & Macroprocesso & Foram acrescentadas as atividades de gerência de mudanças e algumas atividades foram mescladas & 2.0 \\
+  04/06/2015  & Subprocesso Executar Iteração & Foi acrescentada a atividade de gerência de mudança e o nome de algumas atividades foram mudados & 2.0 \\
+  04/06/2015  & Subprocesso Executar Release & Foi retirado do processo & 2.0 \\
 
   \hline
   \end{tabular}
 \end{table*}
+\begin{figure}[!htb]
+\flushleft
+\includegraphics[scale=0.5]{figuras/processo1.png}
+\caption{Processo de Engenharia de Requisitos - Versão 1.0}
+\label{fig:Processo1}
+\end{figure}
 
-Na versão 1.0 do processo, Figuras \ref{fig:Processo1} e \ref{fig:iteracao1}, atividades de gerência de mudanças e alguns \textit{gateways} foram acrescentados, também foi retirado o subprocesso
-  Executar Release. Essas mudanças foram realizadas pois não havia um fluxo definido para quando
-  surgissem novos Requisitos ao longo do processo e também não havia o relacionamento de volta entre os níveis do SAFe. O subprocesso foi retirado
-  pois ele foi transformado em atividades no macroprocesso que seguiam a ordem correta de execução.
+\begin{figure}[!htb]
+\includegraphics[scale=0.5]{figuras/iteracao1.png}
+\caption{Suprocesso Executar Iteração - Versão 1.0}
+\label{fig:iteracao1}
+\end{figure}
 
-\textbf{Atividades acrescentadas:}
+\pagebreak
+
+Na versão 2.0 do processo, Figuras \ref{fig:Processo1} e \ref{fig:iteracao1}, atividades de gerência de mudanças e alguns \textit{gateways} foram acrescentados, também foi retirado o subprocesso
+Executar Release. Essas mudanças foram realizadas, pois na versão 1.0 não havia um fluxo definido para quando
+surgissem novos Requisitos ao longo do processo e também não havia o relacionamento de volta entre os níveis do SAFe. 
+O subprocesso foi retirado, pois ele foi transformado em atividades no macroprocesso que seguiam a ordem correta de execução.
+  
+\section{Atividades acrescentadas:}
 
 \textbf{Gerenciar mudanças no Programa}
 
@@ -75,24 +89,30 @@ Na versão 1.0 do processo, Figuras \ref{fig:Processo1} e \ref{fig:iteracao1}, a
 
   \textbf{Saída}:  \textit{Backlog} do Time e da Iteração\\
   
-\begin{figure}[!htb]
-\flushleft
-\includegraphics[scale=0.5]{figuras/processo1.png}
-\caption{Processo de Engenharia de Requisitos - Versão 1.0}
-\label{fig:Processo1}
-\end{figure}
 
-\begin{figure}[!htb]
-\includegraphics[scale=0.5]{figuras/iteracao1.png}
-\caption{Suprocesso Executar Iteração - Versão 1.0}
-\label{fig:iteracao1}
-\end{figure}
+\textbf{Planejar \textit{Release}}
 
-\pagebreak
-Na versão 2.0 do processo, Figura \ref{fig:Processo2}, atividades de validação dos épicos e \textit{features} foram mescladas às atividades de elicitação desses requisitos.
+  \textbf{Descrição}: Essa atividade consiste na priorização das \textit{features} em iterações para a \textit{Release}. \\
+
+  \textbf{Tarefas}:
+  \begin{itemize}
+   \item \indent \textit{Reunir \textit{Features}}: Reunir \textit{features} envolvidas na \textit{Release};
+
+   \item \indent \textit{Especificar as \textit{Features}}: Escrever os critérios de aceitação;
+
+   \item \indent \textit{Alocar as \textit{features} em iterações}: Dividir as \textit{features} em iterações.
+  \end{itemize}
+
+  \textbf{Participantes}: \textit{Product Manager}, \textit{Scrum Master}, Time\\
+
+  \textbf{Entrada}: \textit{Backlog} do Programa \\
+
+  \textbf{Saída}:  \textit{Backlog} do Programa \\
+
+As atividades de validação dos épicos e \textit{features} foram mescladas às atividades de elicitação desses requisitos.
 Essa mudança foi realizada, pois foi percebida que essas atividades poderiam ser tarefas, visto que em outros momentos do processo foi estabelecido assim.
-Dessa forma, as atividades de Levantar Épicos e Levantar \textit{Features} ficaram da seguinte forma:
 
+\section{Atividades mescladas:}
 \textbf{Levantar Épicos}
 
   \textbf{Descrição}: Essa atividade consiste no levantamento dos épicos com o \textit{Product Manager} através do  \textit{Workshop} de Requisitos. \\
@@ -147,11 +167,3 @@ definidos previamente, e se através delas é possível escrever as Histórias d
 \textbf{Entrada}: \textit{Backlog} do Programa (Épicos) \\
 
 \textbf{Saída}:  \textit{Features} Validadas - \textit{Backlog} do Programa  \\
-
-
-\begin{figure}[!htb]
-\flushleft
-\includegraphics[scale=0.5]{figuras/processo2.png}
-\caption{Processo de Engenharia de Requisitos - Versão 2.0}
-\label{fig:Processo2}
-\end{figure}
