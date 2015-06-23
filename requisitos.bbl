@@ -5,17 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
-\bibitem[Guia{ }OPEN{ }UP 2015]{openUp}
-\abntrefinfo{Guia{ }OPEN{ }UP}{GUIA{ }OPEN{ }UP}{2015}
-{GUIA{ }OPEN{ }UP. \emph{Conceito: Atributos de Requisitos}. 2015.
+\bibitem[Engholm{ }JÚnior 2014]{atributos}
+\abntrefinfo{Engholm{ }JÚnior}{ENGHOLM{ }JÚNIOR}{2014}
+{ENGHOLM{ }JÚNIOR, H. \emph{Levantamento e Gerenciamento de Requisitos II}.
+  2014.
 Dispon{\'\i}vel em:
-  \url{http://www.wthreex.com/rup/openup\_15\_ptbr/index.html}.}
-
-\bibitem[Guia{ }OPEN{ }UP{ }BASIC 2009]{openUpBasic}
-\abntrefinfo{Guia{ }OPEN{ }UP{ }BASIC}{GUIA{ }OPEN{ }UP{ }BASIC}{2009}
-{GUIA{ }OPEN{ }UP{ }BASIC. \emph{Conceito: Atributos de Requisitos}. 2009.
-Dispon{\'\i}vel em:
-  \url{http://epf.eclipse.org/wikis/openuppt/openup\_basic/guidances/concepts/requirement\_attributes,\_VQ268O0KEdqHTdbLTmC5IQ.html}.}
+  \url{http://www.engenhariadesoftware.net.br/artigos/artigo-26-levantamento-e-gerenciamento-de-requisitos-ii}.}
 
 \bibitem[Jitnah, Han e Steele 1995]{jitnah}
 \abntrefinfo{Jitnah, Han e Steele}{JITNAH; HAN; STEELE}{1995}
