@@ -8,6 +8,8 @@
 %atributos de um requisito para encontrar os requisitos de alta prioridade para o cliente nos últimos 30 dias. 
 %\cite{openUpBasic}.
 
+\subsection{Descrição}
+
 Com o objetivo de acompanhar e gerir da melhor maneira possível os requisitos, foram estabelecidos os seguintes atributos de requisitos:
 \begin{itemize}
 \item Data de entrega:
@@ -25,7 +27,7 @@ Data & Data planejada para entrega do requisito. \\ \hline
 \end{tabular}
 \end{table}
 
-Esse atributo foi definido por fornecer de maneira rápida a previsão de entrega do requisito. Dessa maneira, permite uma visão ampla do planejamento de requisitos, auxiliando nas ações de gerenciamento dos requisitos.
+%Esse atributo foi definido por fornecer de maneira rápida a previsão de entrega do requisito. Dessa maneira, permite uma visão ampla do planejamento de requisitos, auxiliando nas ações de gerenciamento dos requisitos.
 \item Dificuldade:
 Uma indicação do nível de esforço necessário ou quão difícil será implementar o requisito. Este atributo pode assumir os valores: alta, média ou baixa.
 
@@ -42,7 +44,7 @@ Baixa & Requisito com uma implementação trivial, sem: dificultadores técnicos
 \end{tabular}
 \end{table}
 
-Esse atributo foi escolhido em razão de informar o quão difícil será implementar um requisito, fornecendo dados que auxiliam no planejamento e organização dos esforços para conclusão das atividades de desenvolvimento de requisitos e para alcançar os resultados esperados.
+%Esse atributo foi escolhido em razão de informar o quão difícil será implementar um requisito, fornecendo dados que auxiliam no planejamento e organização dos esforços para conclusão das atividades de desenvolvimento de requisitos e para alcançar os resultados esperados.
 
 \item Status:
 Grau de completude, ou seja, o progresso da implementação de um requisito. Este atributo pode adquirir os seguintes valores: completo, parcialmente concluído ou não Iniciado.
@@ -60,7 +62,7 @@ Não iniciado & Indica que o requisito ainda não começou a ser implementado. \
 \end{tabular}
 \end{table}
 
-Esse atributo foi definido com o intuito de fornecer, a qualquer momento do desenvolvimento dos requisitos, a situação atual do requisito, em relação ao andamento de sua implementação. Ele permite que se tenha uma visão total do andamento do projeto, a partir de cada requisito.
+%Esse atributo foi definido com o intuito de fornecer, a qualquer momento do desenvolvimento dos requisitos, a situação atual do requisito, em relação ao andamento de sua implementação. Ele permite que se tenha uma visão total do andamento do projeto, a partir de cada requisito.
 
 \item Prioridade:
 Declaração da importância relativa do requisito para os \textit{Stakeholders} (envolvidos ou interessados no desenvolvimento do software). Pode receber os seguintes valores: alta, média ou baixa.
@@ -81,8 +83,81 @@ Baixa & Requisitos úteis, porém menos críticos, sendo usados menos frequentem
 \end{tabular}
 \end{table}
 
-\normalsize Esse atributo foi escolhido em razão de identificar o quão importante um requisito é para os envolvidos no projeto. Ele permite priorizar e planejar a implementação dos requisitos de acordo com suas prioridades, priorizando os requisitos de prioridade mais alta.
+%\normalsize Esse atributo foi escolhido em razão de identificar o quão importante um requisito é para os envolvidos no projeto. Ele permite priorizar e planejar a implementação dos requisitos de acordo com suas prioridades, priorizando os requisitos de prioridade mais alta.
 
 
 \end{itemize}
 
+\subsection{Aplicação}
+
+A partir da definição dos atributos, eles foram aplicados às \textit{Features} e às Histórias de Usuários, não sendo aplicados aos Épicos e ao Tema de Investimento por serem níveis de Requisitos muito elevados, com pouco grau de detalhamento, o que não agregaria valor ao projeto.
+
+A ferramenta utilizada, \textit{TraceCloud}\footnotemark, além das informações de Nome (\textit{Name}), Descrição (\textit{Description}) e Proprietário (\textit{Owner}) de um requisito, tem por padrão os atributos de Prioridade (\textit{Priority}) e Realizado (\textit{Completion}), que informa a porcentagem do quanto já foi realizado de um requisito. Com base nisso e nos quatro atributos definidos, optamos por utilizar os dois atributos já providos pela ferramenta, e customizamos os outros dois, Dificuldade e Data de Entrega, para adequá-la ao que já havia sido proposto. No entanto, o atributo Realizado, da ferramenta, é representado por meio de porcentagem e o atributo Status, que foi definido no projeto, por meio de palavras que o descrevem. Entretanto, em razão de ser um atributo acoplado por padrão à ferramenta, com uma visualização fácil e clara, decidimos utilizar o Realizado como Status definindo apenas três valores básicos de porcentagem equivalentes aos valores de Status, da seguinte forma: 0\%, representando um requisito Não iniciado, 50\%, um requisito Parcialmente Concluído e 100\%, Completo.
+
+\footnotetext{https://www.tracecloud.com/GloreeJava2/jsp/WebSite/TCHome.jsp}
+
+A figura \ref{fig:atri_features} mostra os atributos aplicados às \textit{Features} e a tabela \ref{tab:atri_historias} exibe os atributos aplicados à todas as Histórias de Usuários, respectivamente. Já a figura \ref{fig:iteracao_atributos} mostra os atributos designados apenas as histórias implementadas na primeira iteração. Todo o conteúdo foi gerado pela ferramenta.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=1\linewidth]{figuras/atributos_features.png}
+ \caption{Atributos aplicados às \textit{Features}}
+ \label{fig:atri_features}
+\end{figure}
+
+\begin{table}
+\centering
+\caption{Atributos aplicados às Histórias de Usuários}
+\label{tab:atri_historias}
+\begin{tabular}{ | l | l | l | c | c | c |}
+\hline
+Tag        & Name  & Priority & Percent Complete & Dificuldade & Data de entrega \\ \hline
+R-1.1.1.1  & US-01 & High     & 50               & Baixa       & 06/25/2015      \\\hline
+R-1.1.1.2  & US-02 & High     & 50               & Baixa       & 06/25/2015      \\\hline
+R-1.1.1.3  & US-03 & Medium   & 0                & Média       & 07/02/2015      \\\hline
+R-1.1.1.4  & US-04 & Medium   & 0                & Baixa       & 07/02/2015      \\\hline
+R-1.1.1.5  & US-05 & Medium   & 50               & Média       & 06/25/2015      \\\hline
+R-1.1.1.6  & US-06 & High     & 0                & Baixa       &                 \\\hline
+R-1.1.2.1  & US-07 & Low      & 0                & Baixa       &                 \\\hline
+R-1.1.2.2  & US-08 & Low      & 0                & Baixa       &                 \\\hline
+R-1.1.2.3  & US-09 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.1.2.4  & US-10 & Low      & 0                & Baixa       &                 \\\hline
+R-1.1.2.5  & US-11 & Low      & 0                & Baixa       &                 \\\hline
+R-1.1.3.1  & US-12 & Medium   & 0                & Média       &                 \\\hline
+R-1.1.3.2  & US-13 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.1.3.3  & US-14 & Low      & 0                & Alta        &                 \\\hline
+R-1.1.3.5  & US-16 & Low      & 0                & Média       &                 \\\hline
+R-1.1.3.6  & US-17 & Low      & 0                & Baixa       &                 \\\hline
+R-1.2.1.1  & US-18 & High     & 0                & Baixa       &                 \\\hline
+R-1.2.1.2  & US-19 & High     & 0                & Baixa       &                 \\\hline
+R-1.2.1.3  & US-20 & High     & 0                & Média       &                 \\\hline
+R-1.2.1.4  & US-21 & High     & 0                & Baixa       &                 \\\hline
+R-1.2.1.5  & US-22 & High     & 0                & Baixa       &                 \\\hline
+R-1.2.1.6  & US-23 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.2.1.7  & US-24 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.2.1.8  & US-25 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.2.1.9  & US-26 & Low      & 0                & Baixa       &                 \\\hline
+R-1.2.1.10 & US-27 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.2.1.11 & US-15 & High     & 0                & Baixa       &                 \\\hline
+R-1.2.2.7  & US-28 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.2.2.8  & US-29 & Low      & 0                & Baixa       &                 \\\hline
+R-1.2.2.9  & US-30 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.2.2.10 & US-31 & Low      & 0                & Baixa       &                 \\\hline
+R-1.2.2.11 & US-32 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.2.2.12 & US-33 & Medium   & 0                & Média       &                 \\\hline
+R-1.2.2.13 & US-34 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.2.2.14 & US-35 & Low      & 0                & Baixa       &                 \\\hline
+R-1.2.2.15 & US-36 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.2.2.16 & US-37 & Low      & 0                & Baixa       &                 \\\hline
+R-1.2.2.17 & US-38 & Medium   & 0                & Baixa       &                 \\\hline
+R-1.2.2.18 & US-40 & Medium   & 0                & Média       &                 \\\hline
+R-1.2.2.19 & US-39 & Medium   & 0                & Baixa       &                 \\\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{figuras/iteracao_atributos.png}
+\caption{Histórias de Usuários da primeira iteração com seus atributos}
+\label{fig:iteracao_atributos}
+\end{figure}
